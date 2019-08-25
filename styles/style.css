@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.body {
+    background-color: #252526;
+}
+
+.error-content {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    /* background-color: #ccc; */
+    /* padding-top: 0px; */
+    /* padding-bottom: 700px; */
+    padding-top: 70px;
+}
+
+.error-content>h1,
+p {
+    color: white;
+    font-size: 55pt;
+    margin-top: 20vh;
+    text-align: center;
+    -webkit-filter: drop-shadow(3px 3px 5px rgba(51, 51, 51, 0.4));
+    filter: drop-shadow(3px 3px 5px rgba(51, 51, 51, 0.4));
+}
+
+.error-content>p {
+    font-size: 40pt;
+}
+
+.button {
+    margin: 0 auto;
+    /* background-image: url('botao.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 250px 250px; */
+    /* width: 250px; */
+    /* height: 250px; */
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #ff9595;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #ff6262;
+}
+
+.hided {
+    -webkit-filter: blur(2px) !important;
+    filter: blur(2px) !important;
+}
+
+#message {
+    font-size: 20pt;
+}
+
+
+/*.icon-gift:before {
+    text-align: center;
+    content: "\e99f";
+    font-size: 140pt;
+}*/
+
+#cantada {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.type-box {
+    color: white;
+    font-size: 20pt;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.type-box *:not(:first-child) {
+    display: none;
+}
+
+.hearth {
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 75px;
+    background-color: #1E1E1E;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer>div {
+    /* width: 00px; */
+    margin: 0px 4px 0px 4px;
+}
+
+.footer>.text>p {
+    font-size: 20pt;
+    line-height: 75px;
+    color: #dadada
+}
+
+#coracao>p {
+    font-size: 40pt;
+    line-height: 35px;
+}
+
+#coracao:hover {
+    cursor: pointer;
+}
+
+.tooltipao {
+    width: 50px;
+    height: 50px;
+    /* position: relative; */
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltipao .tooltipaotext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltipao:hover .tooltipaotext {
+    visibility: visible;
+}
